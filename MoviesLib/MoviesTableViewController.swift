@@ -15,7 +15,7 @@ class MoviesTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        loadLocalJASON()
+        loadLocalJson()
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -24,7 +24,7 @@ class MoviesTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
     
-    func loadLocalJASON() {
+    func loadLocalJson() {
         guard let jsonURL = Bundle.main.url(forResource: "movies", withExtension: "json"),
             let data = try? Data(contentsOf: jsonURL) else {return}
         do{
@@ -54,7 +54,10 @@ class MoviesTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "movieCell", for: indexPath)
-
+        let movie = movies[indexPath.row]
+        cell.textLabel?.text = movie.title
+        cell.detailTextLabel?.text = movie.summary
+        
         // Configure the cell...
 
         return cell
