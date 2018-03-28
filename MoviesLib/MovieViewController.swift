@@ -17,13 +17,12 @@ class MovieViewController: UIViewController {
     @IBOutlet weak var lbDuration: UILabel!
     @IBOutlet weak var lbScore: UILabel!
     @IBOutlet weak var tvSinopsis: UITextView!
+    @IBOutlet weak var lcButtonX: NSLayoutConstraint!
+    
     
     // MARK: Super Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        lbTitle.text = "Logan, the movie \nHoje nos Cinemas!"
     }
-
+    
 }
-
