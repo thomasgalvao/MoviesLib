@@ -11,6 +11,7 @@ import UIKit
 class MovieTableViewCell: UITableViewCell {
 
     @IBOutlet weak var ivPoster: UIView!
-    
-
+    @IBOutlet weak var lbTitle: UILabel!
+    @IBOutlet weak var lbSummary: UILabel!
+    @IBOutlet weak var lbRating: UILabel!
 }

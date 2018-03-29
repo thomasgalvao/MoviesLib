@@ -214,6 +214,9 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="ivPoster" destination="We5-jt-6MA" id="Onn-0l-Top"/>
+                                    <outlet property="lbRating" destination="gKS-NW-vuj" id="YlZ-Cp-tcp"/>
+                                    <outlet property="lbSummary" destination="sR5-BB-9B9" id="lzt-UP-iLW"/>
+                                    <outlet property="lbTitle" destination="SSD-3R-UJf" id="ev5-FR-22g"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
