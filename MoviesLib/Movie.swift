@@ -11,8 +11,23 @@ import Foundation
 struct Movie: Codable {
     let title: String
     let categories: [String]
-    let duration: String
+    let duration: String?
     let rating: Double
     let summary: String
-    let image_name: String
+    let imageName: String
+    
+    enum CodingKeys: String, CodingKey {
+        case title = "title"
+        
+        case categories = "categories"
+        
+        case duration = "duration"
+        
+        case rating = "rating"
+        
+        case summary = "summary"
+        
+        case imageName = "image_name"
+    }
+    
 }

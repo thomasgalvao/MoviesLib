@@ -55,11 +55,7 @@ class MoviesTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "movieCell", for: indexPath)
         let movie = movies[indexPath.row]
-        cell.textLabel?.text = movie.title
-        cell.detailTextLabel?.text = movie.summary
-        
         // Configure the cell...
-
         return cell
     }
     

@@ -15,6 +15,7 @@
 		ACBDE46E206C4EA700E43222 /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = ACBDE46D206C4EA700E43222 /* movies.json */; };
 		ACBDE470206C4EFB00E43222 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDE46F206C4EFB00E43222 /* Movie.swift */; };
 		ACBDE472206C508500E43222 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDE471206C508500E43222 /* MoviesTableViewController.swift */; };
+		C6A9F212206C69470098C202 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A9F211206C69470098C202 /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		ACBDE46D206C4EA700E43222 /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
 		ACBDE46F206C4EFB00E43222 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		ACBDE471206C508500E43222 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
+		C6A9F211206C69470098C202 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				ACBDE46D206C4EA700E43222 /* movies.json */,
+				C6A9F211206C69470098C202 /* MovieTableViewCell.swift */,
 				07780D4C1E6D860E00BC3630 /* AppDelegate.swift */,
 				07780D4E1E6D860E00BC3630 /* MovieViewController.swift */,
 				07780D501E6D860E00BC3630 /* Main.storyboard */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A9F212206C69470098C202 /* MovieTableViewCell.swift in Sources */,
 				ACBDE472206C508500E43222 /* MoviesTableViewController.swift in Sources */,
 				07780D4F1E6D860E00BC3630 /* MovieViewController.swift in Sources */,
 				07780D4D1E6D860E00BC3630 /* AppDelegate.swift in Sources */,
